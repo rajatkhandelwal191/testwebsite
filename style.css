@@ -1,0 +1,85 @@
+/* default styling */
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* decendent selector */
+
+header h1{
+    font-weight: 400;
+}
+
+header {
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3rem;
+}
+
+nav{
+    /* we introduce Position tag to move our nav keys left right top bottom */
+    position: relative;
+    top: 1rem;
+    right: 3rem;
+ width: 30rem;  /* to make space between html css ...bcaz inbuilt nav has this much space*/
+}
+
+ul{
+    /* flex used to make display in horizontal */
+    display: flex;
+    /* justify content ==>  */
+    justify-content: space-between;
+}
+
+li{
+    /* none becz we dont want any bullet */
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+.Mainimage{
+    /* Viewwidth and Viewport are best units to make website responsive */
+    width: 95vw;
+    margin: 1rem;
+}
+
+article{
+    display: flex;
+    /* margin is given top right bottom left */
+    margin: 5rem;
+}
+
+.content{
+    /* text align is used to align images, text etc */
+    text-align: center;
+    margin-right: 2rem;
+    padding: 1rem;  /*padding is used inside div*/
+    font-size: 1.3rem;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height:4rem;
+    /* justify content is used after flex bcz both are horizontally arrange */
+    display: flex;
+    justify-content: center;
+    /* align item is used to arrange vertically */
+    align-items: center;
+    font-size: 1rem;
+
+}
+
+/* anchor tag */
+a{
+    /* decoration used to remove underline or decorate text */
+    text-decoration: none;
+    color: black;
+}
+
+/* Hover is a pseudo class means class of "a tag*/
+a:hover {
+    color: red;
+    font-size: 2rem;
+
+}
